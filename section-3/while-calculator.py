@@ -51,6 +51,3 @@ while True:
         print('...turning off...')
         sleep(1)
         break
-
-
-
