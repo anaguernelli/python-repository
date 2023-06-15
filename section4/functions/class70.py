@@ -1,5 +1,6 @@
 x = 1
 
+
 def escopo():
 
     x = 10
@@ -11,6 +12,7 @@ def escopo():
         print(x, y)
 
     outra_func()
+    # Pega o x de seu próprio escopo(), outra_func() não altera
     print(x)
 
 
