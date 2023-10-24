@@ -1,1 +1,1 @@
-print('Este módulo class97_m é', __name__)
+variavel_module = 'Ana'
