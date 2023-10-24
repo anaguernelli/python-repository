@@ -9,6 +9,7 @@ def make_greeting(greeting):
         return f'{greeting}, {name}!'
     return greet
 
+
 good_morning_greet = make_greeting('Good morning')
 good_night_greet = make_greeting('Good night')
 

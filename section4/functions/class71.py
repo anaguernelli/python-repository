@@ -5,7 +5,7 @@ def soma(*args):
     tot = 0
     for numero in args:
         tot += numero
-    
+
     return tot
 
 
