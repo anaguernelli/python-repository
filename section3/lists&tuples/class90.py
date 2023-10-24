@@ -23,13 +23,13 @@ while True:
 
         try:
             del compras[apagar]
-   
+
         except ValueError:
             print('Por favor, digite um número')
 
         except IndexError:
             print('Índice inexistente, tente novamente\n')
-        
+
         except Exception:
             print('Erro desconhecido')
 
