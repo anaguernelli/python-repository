@@ -1,0 +1,3 @@
+print('oi')
+
+variavel = 'hello'
