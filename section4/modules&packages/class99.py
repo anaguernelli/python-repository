@@ -16,7 +16,11 @@
 # Com o * tenho acesso à variavel, mas não tenho acesso
 # a outras coisas caso eu não explane no __all__
 
-from class99_package.modulo import package_multiplica, cumprimenta
+# from class99_package.modulo import package_multiplica, cumprimenta
 
-cumprimenta()
-print(package_multiplica(3, 5))
+# cumprimenta()
+# print(package_multiplica(3, 5))
+
+from class99_package import package_multiplica
+
+print(class99_package.duplica(3))
