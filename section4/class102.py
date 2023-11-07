@@ -24,7 +24,7 @@ def concatene(valor_inicial):
 
     def interna(valor_concatenado):
         # sendo valor_final uma free var,
-        # devemos defini-la como nonlocal
+        # devemos defini-la como nonlocal na função aninhada
         nonlocal valor_final
         valor_final += valor_concatenado
 
